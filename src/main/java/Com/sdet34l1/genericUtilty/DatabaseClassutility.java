@@ -12,7 +12,7 @@ import com.mysql.jdbc.Driver;
 /**
  * This class contains all common action releted to database
  * @author PRAJWAL
- *
+ *Database
  */
 
 public class DatabaseClassutility {
