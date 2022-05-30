@@ -8,7 +8,7 @@ import org.openqa.selenium.WebElement;
 
 /**
  * This class is used to access common java methods
- * @author PRAJWAL
+ * @author nayana
  *
  */
 
