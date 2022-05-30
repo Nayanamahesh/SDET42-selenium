@@ -6,7 +6,7 @@ import java.util.Properties;
 
 /**
  * This class consist only Property file specific common methods
- * @author PRAJWAL
+ * @author nayana
  *
  */
 
