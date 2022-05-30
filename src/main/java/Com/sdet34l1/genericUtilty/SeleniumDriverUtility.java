@@ -18,8 +18,8 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 /**
  * this is class is used to maintain all webdriver common actions
- * @author PRAJWAL
- *
+ * @author nayana
+ *selenium1
  */
 
 public class SeleniumDriverUtility {
