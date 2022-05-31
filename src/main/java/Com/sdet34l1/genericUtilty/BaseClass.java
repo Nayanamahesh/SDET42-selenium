@@ -59,16 +59,16 @@ public class BaseClass {
 	 *  create the instance for common object repository class
 	 * @throws IOException
 	 */
-	@Parameters("browser")
+	//@Parameters("browser")
 	@BeforeClass(groups="BaseClass")
-	public void beforeClass1Test(String browser) throws IOException {
+	public void beforeClass1Test() throws IOException {
 		jutil=new JavaClassFileUtility();
 		SeleniumDriverUtility seleniumDriverUtility=new SeleniumDriverUtility();
 		String url =FileClassUtility.getDataFromPropertyFile("url");
 		String timeout = FileClassUtility.getDataFromPropertyFile("timeout");
 		 username =FileClassUtility.getDataFromPropertyFile("username");
 		 password = FileClassUtility.getDataFromPropertyFile("password");
-		// browser = FileClassUtility.getDataFromPropertyFile("browser");
+		String browser = FileClassUtility.getDataFromPropertyFile("browser");
 		 industryname = FileClassUtility.getDataFromPropertyFile("industryname");
 		 type = FileClassUtility.getDataFromPropertyFile("typename");
 		 emailid =FileClassUtility.getDataFromPropertyFile("emailid");

@@ -2,53 +2,43 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-05-23T17:30:54 IST" name="Suite" finished-at="2022-05-23T17:31:50 IST" duration-ms="56094">
+  <suite started-at="2022-05-31T15:45:31 IST" name="Default suite" finished-at="2022-05-31T15:46:06 IST" duration-ms="34948">
     <groups>
-      <group name="regression">
-        <method signature="CreateContactTest.createContactTest()[pri:0, instance:Com.vtiger.contactsTest.CreateContactTest@32502377]" name="createContactTest" class="Com.vtiger.contactsTest.CreateContactTest"/>
-      </group> <!-- regression -->
       <group name="sanity">
-        <method signature="CreateContactTest.createContactTest()[pri:0, instance:Com.vtiger.contactsTest.CreateContactTest@32502377]" name="createContactTest" class="Com.vtiger.contactsTest.CreateContactTest"/>
+        <method signature="CreateCampignsTest.createCampaignsTest1()[pri:0, instance:Com.vtiger.campagnsTest.CreateCampignsTest@7965a51c]" name="createCampaignsTest1" class="Com.vtiger.campagnsTest.CreateCampignsTest"/>
       </group> <!-- sanity -->
     </groups>
-    <test started-at="2022-05-23T17:30:54 IST" name="Test" finished-at="2022-05-23T17:31:50 IST" duration-ms="56094">
-      <class name="Com.vtiger.contactsTest.CreateContactTest">
-        <test-method is-config="true" signature="beforeSuite1Test()[pri:0, instance:Com.vtiger.contactsTest.CreateContactTest@32502377]" started-at="2022-05-23T17:30:53 IST" name="beforeSuite1Test" finished-at="2022-05-23T17:30:54 IST" duration-ms="1112" status="PASS">
+    <test started-at="2022-05-31T15:45:31 IST" name="Default test" finished-at="2022-05-31T15:46:06 IST" duration-ms="34948">
+      <class name="Com.vtiger.campagnsTest.CreateCampignsTest">
+        <test-method is-config="true" signature="beforeSuite1Test()[pri:0, instance:Com.vtiger.campagnsTest.CreateCampignsTest@7965a51c]" started-at="2022-05-31T15:45:24 IST" name="beforeSuite1Test" finished-at="2022-05-31T15:45:31 IST" duration-ms="7028" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite1Test -->
-        <test-method is-config="true" signature="beforeClass1Test(java.lang.String)[pri:0, instance:Com.vtiger.contactsTest.CreateContactTest@32502377]" started-at="2022-05-23T17:30:54 IST" name="beforeClass1Test" finished-at="2022-05-23T17:31:06 IST" duration-ms="12210" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
+        <test-method is-config="true" signature="beforeClass1Test()[pri:0, instance:Com.vtiger.campagnsTest.CreateCampignsTest@7965a51c]" started-at="2022-05-31T15:45:31 IST" name="beforeClass1Test" finished-at="2022-05-31T15:45:43 IST" duration-ms="11798" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass1Test -->
-        <test-method is-config="true" signature="beforeMethodTest()[pri:0, instance:Com.vtiger.contactsTest.CreateContactTest@32502377]" started-at="2022-05-23T17:31:07 IST" name="beforeMethodTest" finished-at="2022-05-23T17:31:15 IST" duration-ms="8596" status="PASS">
+        <test-method is-config="true" signature="beforeMethodTest()[pri:0, instance:Com.vtiger.campagnsTest.CreateCampignsTest@7965a51c]" started-at="2022-05-31T15:45:43 IST" name="beforeMethodTest" finished-at="2022-05-31T15:45:49 IST" duration-ms="5621" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethodTest -->
-        <test-method signature="createContactTest()[pri:0, instance:Com.vtiger.contactsTest.CreateContactTest@32502377]" started-at="2022-05-23T17:31:15 IST" name="createContactTest" finished-at="2022-05-23T17:31:47 IST" duration-ms="32276" status="PASS">
+        <test-method signature="createCampaignsTest1()[pri:0, instance:Com.vtiger.campagnsTest.CreateCampignsTest@7965a51c]" started-at="2022-05-31T15:45:50 IST" name="createCampaignsTest1" finished-at="2022-05-31T15:46:04 IST" duration-ms="13459" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- createContactTest -->
-        <test-method is-config="true" signature="afteraMethodTest()[pri:0, instance:Com.vtiger.contactsTest.CreateContactTest@32502377]" started-at="2022-05-23T17:31:47 IST" name="afteraMethodTest" finished-at="2022-05-23T17:31:50 IST" duration-ms="2696" status="PASS">
+        </test-method> <!-- createCampaignsTest1 -->
+        <test-method is-config="true" signature="afteraMethodTest()[pri:0, instance:Com.vtiger.campagnsTest.CreateCampignsTest@7965a51c]" started-at="2022-05-31T15:46:04 IST" name="afteraMethodTest" finished-at="2022-05-31T15:46:06 IST" duration-ms="2157" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afteraMethodTest -->
-        <test-method is-config="true" signature="afterClass1Test()[pri:0, instance:Com.vtiger.contactsTest.CreateContactTest@32502377]" started-at="2022-05-23T17:31:50 IST" name="afterClass1Test" finished-at="2022-05-23T17:31:50 IST" duration-ms="260" status="PASS">
+        <test-method is-config="true" signature="afterClass1Test()[pri:0, instance:Com.vtiger.campagnsTest.CreateCampignsTest@7965a51c]" started-at="2022-05-31T15:46:06 IST" name="afterClass1Test" finished-at="2022-05-31T15:46:06 IST" duration-ms="199" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass1Test -->
-        <test-method is-config="true" signature="afterSuite1Test()[pri:0, instance:Com.vtiger.contactsTest.CreateContactTest@32502377]" started-at="2022-05-23T17:31:50 IST" name="afterSuite1Test" finished-at="2022-05-23T17:31:50 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterSuite1Test()[pri:0, instance:Com.vtiger.campagnsTest.CreateCampignsTest@7965a51c]" started-at="2022-05-31T15:46:06 IST" name="afterSuite1Test" finished-at="2022-05-31T15:46:06 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite1Test -->
-      </class> <!-- Com.vtiger.contactsTest.CreateContactTest -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+      </class> <!-- Com.vtiger.campagnsTest.CreateCampignsTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
