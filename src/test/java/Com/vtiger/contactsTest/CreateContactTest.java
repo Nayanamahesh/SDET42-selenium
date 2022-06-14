@@ -20,7 +20,7 @@ public class CreateContactTest extends BaseClass
 	public void createContactTest() {
 	
 	
-	 String contactfirstname = ExcelclassFileUtility.getDataFromExcel("Contacts", 2, 1)+randomNumber;
+	 String contactfirstname = ExcelclassFileUtility.getDataFromExcel("Contacts", 1, 2)+randomNumber;
 	 createnewcontact=new CreateNewContactPage(driver);
 	 homepage.clickOnContact();
 	 ExcelclassFileUtility.setDataIntoExcel("Contacts", 9, 4, "home page is displayd");

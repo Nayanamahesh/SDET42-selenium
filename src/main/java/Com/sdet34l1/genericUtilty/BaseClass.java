@@ -42,7 +42,7 @@ public class BaseClass {
 	
 	/**
 	 * this method is used to open the excel and property file and get the database connection
-	 * @throws EncryptedDocumentException
+	 * @throws Encr      yptedDocumentException
 	 * @throws IOException
 	 */
 	

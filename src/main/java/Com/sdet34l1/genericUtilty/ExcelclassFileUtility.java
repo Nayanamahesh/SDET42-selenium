@@ -25,7 +25,7 @@ public class ExcelclassFileUtility {
 	}
 	
 	/**
-	 * This method is used to fetch the frin the excel sheet
+	 * This method is used to fetch the data from the excel sheet
 	 * @param sheetName
 	 * @param rowNumber
 	 * @param cellNumber
