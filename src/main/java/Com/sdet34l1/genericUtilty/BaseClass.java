@@ -21,7 +21,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 
 /**
- * This class is  used to access common methods to all the scripts
+ * This class is  used to access covhjghjgmmon methods to all the scripts
  * @author user
  *This is the base class
  */
